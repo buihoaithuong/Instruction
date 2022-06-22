@@ -1,7 +1,10 @@
 /* GLOBAL */
-html, body{
-    font-family: 'Work Sans', sans-serif;
-}
+<div class="container carousel-caption d-none d-md-block">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nobis dicta, expedita modi molestiae
+              voluptate.</p>
+            <button class="btn">Read More <i class="fa fa-angle-double-right"></i></button>
+          </div>
 
 *{
     margin: 0;
@@ -402,6 +405,9 @@ li{
 /* FOOTER */
 footer{
     background-color:#141415;
+}
+.footer__top .col-4 > h3{
+    margin-top: 24px;
 }
 .footer__top h3{
     color:#ff4f81;
